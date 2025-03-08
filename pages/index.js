@@ -89,7 +89,7 @@ export default function Home({ walletAddress, connectWallet, loading }) {
       <AppBar position="static" color="transparent" elevation={1}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            P2P Marketplace
+            Header left coner
           </Typography>
           {loading ? (
             <CircularProgress size={24} />
@@ -138,10 +138,10 @@ export default function Home({ walletAddress, connectWallet, loading }) {
       <Container maxWidth="lg" sx={{ mt: 4 }}>
         <Box sx={{ mb: 4 }}>
           <Typography variant="h4" component="h1" gutterBottom>
-            Crypto P2P Marketplace
+            Header
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" gutterBottom>
-            Buy and sell items using cryptocurrency on Base blockchain
+            Intro
           </Typography>
         </Box>
 
